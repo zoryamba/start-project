@@ -8,14 +8,15 @@
 
 `cd start-project`
 
-3. clone dependent repositories
+3. update git submodules
 
-`git clone git@github.com:zoryamba/start-project-frontend.git frontend`
+`git submodule init` - initialize `.gitmodules` file
 
-`git clone git@github.com:zoryamba/start-project-backend.git backend`
-
-`git clone git@github.com:zoryamba/start-project-websocket.git websocket`
+`git submodule update` - get submodules sources
 
 4. run docker-compose 
 
 `docker-compose up`
+
+
+To get latest submodules updates use `git submodule update` command
