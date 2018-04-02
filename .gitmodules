@@ -1,0 +1,9 @@
+[submodule "websocket"]
+	path = websocket
+	url = https://github.com/zoryamba/start-project-websocket
+[submodule "backend"]
+	path = backend
+	url = https://github.com/zoryamba/start-project-backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/zoryamba/start-project-frontend
